@@ -29,6 +29,7 @@
 
 </main>
 
+<!-- For Upload File -->
 <div class="modal fade" id="addfile" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -37,15 +38,18 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Show a second modal and hide this one with the button below.
+       <form action="" method="POST" enctype="multipart/form-data">
+        <input type="file">
+       </form>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Upload</button>
       </div>
     </div>
   </div>
 </div>
 
+<!-- For Folder Create -->
 <div class="modal fade" id="addfolder" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -54,10 +58,15 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Show a second modal and hide this one with the button below.
+        <form action="" method="post">
+          <div data-mdb-input-init class="form-outline mb-4">
+            <label class="form-label">Folder Name</label>
+            <input type="test" class="form-control form-control-lg">
+          </div>
+        </form>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Create Folder</button>
       </div>
     </div>
   </div>
