@@ -13,13 +13,18 @@
                         <tr>
                             <th>Name</th>
                             <th>Date Created</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
 
                     <tbody>
                             <tr> 
-                            <td><a class="text-decoration-none text-dark" href=""><strong>123</strong></a></td>
-                            <td>10/20/12</td>
+                            <td><a class="text-decoration-none text-dark fs-5" href="#"><i class="fa-solid fa-folder me-3"></i><strong>123</strong></a></td>
+                            <td class="fs-5">10/20/12</td>
+                            <td>
+                              <button class="btn btn-warning"><a href="#"><i class="fa-solid fa-pencil text-dark"></i></a></button>
+                              <button class="btn btn-danger"><a href="#"><i class="fa-solid fa-trash text-dark"></i></button>
+                            </td>
                             </tr>
                     </tbody>
             </table>
@@ -39,7 +44,9 @@
       </div>
       <div class="modal-body">
        <form action="" method="POST" enctype="multipart/form-data">
-        <input type="file">
+       <div class="mb-3">
+        <input class="form-control" type="file" id="formFile">
+      </div>
        </form>
       </div>
       <div class="modal-footer">
