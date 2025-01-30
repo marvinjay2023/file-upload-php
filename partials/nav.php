@@ -11,7 +11,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="d-flex justify-content-start navbar-nav me-auto mb-2 mb-lg-0 w-100">
                     <li class="nav-item mx-3">
-                        <a class="nav-link fw-bold text-white px-4 rounded" aria-current="page" href="/">Home</a>
+                        <a class="nav-link fw-bold text-white px-4 rounded" aria-current="page" href="/"></a>
                     </li>
                 </ul>
                 </div>
